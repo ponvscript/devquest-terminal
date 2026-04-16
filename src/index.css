@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fuente base tipo terminal */
+  --font-sans: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Paleta pastel-terminal anime */
+  --color-void: #050315;
+  --color-deep-purple: #1a102a;
+  --color-soft-lilac: #e9d5ff;
+  --color-soft-cyan: #a5f3fc;
+  --color-soft-mint: #bbf7d0;
+  --color-soft-ink: #0b1020;
+}
+
+/* Animación suave para respiración 4-7-8 */
+@keyframes breathe-soft {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+  21.05% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  57.89% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.85);
+    opacity: 0.85;
+  }
+}
+
+.animate-breathe-soft {
+  animation: breathe-soft 19s ease-in-out infinite;
+}
+
+@keyframes smoke-away {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0px);
+  }
+  45% {
+    opacity: 0.7;
+    transform: translateY(-6px) scale(1.01);
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.98);
+    filter: blur(10px);
+  }
+}
+
+.animate-smoke-away {
+  animation: smoke-away 700ms ease-out forwards;
+}
+
+.goth-anime-image {
+  filter: grayscale(1) contrast(1.35) brightness(0.75) saturate(0.15);
+}
