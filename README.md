@@ -46,7 +46,7 @@ Si quieres probar mi rincón oscuro en tu PC:
 3. Lánzalo:
    npm run dev
 
-🥀 Sobre mí
+## 🥀 Sobre mí
 Soy Poni, una Goth Developer en proceso de aprendizaje. Me apasiona el desarrollo web, los videojuegos y la salud mental. Utilizo mi código como una herramienta para gestionar mi TLP y ayudar a otros a entender que se puede ser productiva incluso en el caos emocional.
 
 Setup: Ryzen 5 Gen | iPhone 15 | AKG P120
