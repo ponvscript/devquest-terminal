@@ -10,7 +10,6 @@ export default defineConfig({
     tailwindcss(),
     
   ],
-  base: '/devquest-terminal/',
   server: {
     proxy: {
       '/nekos': {
@@ -21,4 +20,5 @@ export default defineConfig({
       },
     },
   },
+  base: '/devquest-terminal/',
 })
