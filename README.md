@@ -20,4 +20,39 @@ Esta es la versión web, creada para gestionar el enfoque, las emociones y la ru
     * 🌙 **Melancholy Mode:** Interfaz violeta, frases de anime oscuro (Nana, Serial Experiments Lain) y tareas de baja carga cognitiva.
     * 🕸️ **Crisis Reset:** Animación de respiración 4-7-8 para desescalada emocional.
 * **The Exorcist (Brain Dump):** Un espacio para escribir pensamientos intrusivos y "limpiarlos" del sistema con un solo click.
-* **Goth UI:** Estética *high-contrast* diseñada para reducir la fatiga visual y encajar con mi
+* **Goth UI:** Estética *high-contrast* diseñada para reducir la fatiga visual y encajar con mi setup.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js + Vite
+* **Styling:** Tailwind CSS (Custom Dark Palette)
+* **Icons:** Lucide React
+* **Deployment:** GitHub Pages
+
+---
+
+## 🚀 Instalación Local
+
+Si quieres probar mi rincón oscuro en tu PC:
+
+1. Clona el repositorio :
+   git clone [https://github.com/ponvscript/devquest-web.git](https://github.com/ponvscript/devquest-web.git)
+
+2. Instala las dependencias:
+   npm install
+
+3. Lánzalo:
+   npm run dev
+
+🥀 Sobre mí
+Soy Poni, una Goth Developer en proceso de aprendizaje. Me apasiona el desarrollo web, los videojuegos y la salud mental. Utilizo mi código como una herramienta para gestionar mi TLP y ayudar a otros a entender que se puede ser productiva incluso en el caos emocional.
+
+Setup: Ryzen 5 Gen | iPhone 15 | AKG P120
+
+Intereses: WordPress, React, Anime, Digital Lifestyle.
+
+<p align="center">
+Hecho con 🖤
+</p>
