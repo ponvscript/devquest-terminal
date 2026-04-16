@@ -1,58 +1,55 @@
-# 🕸️ FeelingDev: Terminal Edition 🕸️
+# 🕸️ DevQuest: Web Dashboard 🕸️
 
-> **"Coding in the dark, managing the chaos."**
+> **"A sanctuary for neurodivergent developers."**
 
-![Goth Aesthetic](https://img.shields.io/badge/Style-Goth%20/%20Dark-black?style=for-the-badge&labelColor=8b0000)
+![Status](https://img.shields.io/badge/Live-Demo-8b0000?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![TLP Awareness](https://img.shields.io/badge/Mental_Health-TLP%20Aware-purple?style=for-the-badge)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-**FeelingDev** no es solo un dashboard; es mi santuario digital. Diseñado para programadores que, como yo, navegan por la neurodivergencia (**TLP**) y prefieren una estética oscura, minimalista y con toques de anime. 
+**DevQuest Web** es la interfaz visual de mi ecosistema de productividad. Es un dashboard diseñado con estética **Goth/Dark** pensado específicamente para programadores que gestionan **TLP (Trastorno Límite de la Personalidad)** o neurodivergencias, priorizando el bienestar emocional y el enfoque visual.
 
-Esta es la versión web, creada para gestionar el enfoque, las emociones y la rumiación mientras construyo código.
-
----
-
-## 🖤 Características Principales
-
-* **Mood Selector (DBT-Based):** Cambia el estado del sistema según tu energía.
-    * ⚡ **Chaos Mode:** Fuego en los bordes y temporizador Pomodoro para aprovechar picos de hiperfoco.
-    * 🌙 **Melancholy Mode:** Interfaz violeta, frases de anime oscuro (Nana, Serial Experiments Lain) y tareas de baja carga cognitiva.
-    * 🕸️ **Crisis Reset:** Animación de respiración 4-7-8 para desescalada emocional.
-* **The Exorcist (Brain Dump):** Un espacio para escribir pensamientos intrusivos y "limpiarlos" del sistema con un solo click.
-* **Goth UI:** Estética *high-contrast* diseñada para reducir la fatiga visual y encajar con mi setup.
+🔗 **[VER DEMO EN VIVO](https://ponvscript.github.io/devquest-terminal/)**
 
 ---
 
-## 🛠️ Tech Stack
+## 🖤 Funcionalidades Web
 
-* **Frontend:** React.js + Vite
-* **Styling:** Tailwind CSS (Custom Dark Palette)
-* **Icons:** Lucide React
-* **Deployment:** GitHub Pages
+### 🌙 Mood-Driven UI
+La interfaz no es estática. Cambia mediante **CSS Variables** y **React State** según tu estado emocional:
+* **Chaos Mode:** Aumenta el contraste, activa bordes rojos y lanza un Pomodoro agresivo para aprovechar el hiperfoco.
+* **Melancholy Mode:** Tonos violetas y desaturados, fuentes más suaves y recordatorios de validación emocional.
+* **Safety Mode:** Modo ultra-minimalista con guías de respiración integradas para momentos de crisis.
+
+### 🧠 Brain Dump (The Exorcist)
+Un módulo de escritura efímera. Escribe lo que te genera rumiación o ansiedad y "exorcízalo". El texto se elimina visualmente con una animación, ayudando a cerrar ciclos de pensamiento intrusivo mientras trabajas.
+
+### 🎮 Anime & Aesthetic Integration
+Integración de visuales minimalistas de anime y citas que resuenan con la cultura alternativa, alejándose del diseño corporativo tradicional.
 
 ---
 
-## 🚀 Instalación Local
+## 🛠️ Tecnologías
 
-Si quieres probar mi rincón oscuro en tu PC:
+* **React + Vite:** Para una experiencia de usuario rápida y fluida.
+* **Tailwind CSS:** Configuración de temas oscuros personalizados (`bg-void`, `accent-crimson`).
+* **Framer Motion:** Para transiciones suaves y animaciones de "exorcismo" de texto.
+* **Lucide Icons:** Iconografía minimalista.
 
-1. Clona el repositorio :
-   git clone [https://github.com/ponvscript/devquest-web.git](https://github.com/ponvscript/devquest-web.git)
+---
 
-2. Instala las dependencias:
-   npm install
+## 📂 Estructura del Proyecto
+src/
+ ├── components/      # UI: Dashboard, MoodSelector, BrainDump
+ ├── hooks/           # Lógica de temporizadores y gestión de estado
+ ├── theme/           # Definición de paletas Goth/Dark
+ └── App.jsx          # Punto de entrada principal
+🥀 Filosofía del Proyecto
+Este proyecto nace de la necesidad de tener herramientas que no ignoren la salud mental. Como dev con TLP, a menudo las apps de productividad son demasiado brillantes o rígidas. DevQuest abraza la oscuridad y la flexibilidad emocional.
 
-3. Lánzalo:
-   npm run dev
-
-## 🥀 Sobre mí
-Soy Poni, una Goth Developer en proceso de aprendizaje. Me apasiona el desarrollo web, los videojuegos y la salud mental. Utilizo mi código como una herramienta para gestionar mi TLP y ayudar a otros a entender que se puede ser productiva incluso en el caos emocional.
-
-Setup: Ryzen 5 Gen | iPhone 15 | AKG P120
-
-Intereses: WordPress, React, Anime, Digital Lifestyle.
+🚀 Despliegue
+Este proyecto se despliega automáticamente mediante GitHub Actions cada vez que hago un push a main.
 
 <p align="center">
-Hecho con 🖤
+Diseñado por una Goth Dev | 2026 🦇
 </p>
