@@ -39,11 +39,13 @@ Integración de visuales minimalistas de anime y citas que resuenan con la cultu
 ---
 
 ## 📂 Estructura del Proyecto
-src/
+<pre>
+ src/
  ├── components/      # UI: Dashboard, MoodSelector, BrainDump
  ├── hooks/           # Lógica de temporizadores y gestión de estado
  ├── theme/           # Definición de paletas Goth/Dark
  └── App.jsx          # Punto de entrada principal
+</pre>
 ## 🥀 Filosofía del Proyecto
 Este proyecto nace de la necesidad de tener herramientas que no ignoren la salud mental. Como dev con TLP, a menudo las apps de productividad son demasiado brillantes o rígidas. DevQuest abraza la oscuridad y la flexibilidad emocional.
 
