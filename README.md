@@ -1,16 +1,23 @@
-# React + Vite
+# 🕸️ FeelingDev: Terminal Edition 🕸️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **"Coding in the dark, managing the chaos."**
 
-Currently, two official plugins are available:
+![Goth Aesthetic](https://img.shields.io/badge/Style-Goth%20/%20Dark-black?style=for-the-badge&labelColor=8b0000)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TLP Awareness](https://img.shields.io/badge/Mental_Health-TLP%20Aware-purple?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**FeelingDev** no es solo un dashboard; es mi santuario digital. Diseñado para programadores que, como yo, navegan por la neurodivergencia (**TLP**) y prefieren una estética oscura, minimalista y con toques de anime. 
 
-## React Compiler
+Esta es la versión web, creada para gestionar el enfoque, las emociones y la rumiación mientras construyo código.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖤 Características Principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Mood Selector (DBT-Based):** Cambia el estado del sistema según tu energía.
+    * ⚡ **Chaos Mode:** Fuego en los bordes y temporizador Pomodoro para aprovechar picos de hiperfoco.
+    * 🌙 **Melancholy Mode:** Interfaz violeta, frases de anime oscuro (Nana, Serial Experiments Lain) y tareas de baja carga cognitiva.
+    * 🕸️ **Crisis Reset:** Animación de respiración 4-7-8 para desescalada emocional.
+* **The Exorcist (Brain Dump):** Un espacio para escribir pensamientos intrusivos y "limpiarlos" del sistema con un solo click.
+* **Goth UI:** Estética *high-contrast* diseñada para reducir la fatiga visual y encajar con mi
