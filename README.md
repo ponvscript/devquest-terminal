@@ -44,7 +44,7 @@ src/
  ├── hooks/           # Lógica de temporizadores y gestión de estado
  ├── theme/           # Definición de paletas Goth/Dark
  └── App.jsx          # Punto de entrada principal
-🥀 Filosofía del Proyecto
+## 🥀 Filosofía del Proyecto
 Este proyecto nace de la necesidad de tener herramientas que no ignoren la salud mental. Como dev con TLP, a menudo las apps de productividad son demasiado brillantes o rígidas. DevQuest abraza la oscuridad y la flexibilidad emocional.
 
 🚀 Despliegue
