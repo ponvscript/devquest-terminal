@@ -484,10 +484,12 @@ export default function App() {
           return await res.json()
         }
 
+        const BASE_API_URL = 'https://api.nekosapi.com/v4';
+
         // 1) Intento con tags del mood
         let data = await tryFetch(
-          `/nekos/v4/images/random?limit=1&rating=safe&tags=${tagsParam}`,
-        )
+          `${BASE_API_URL}/images/random?limit=1&rating=safe&tags=${tagsParam}`,
+        );
 
         // 2) Si viene vacío o no hay URL, reintenta sin tags (random safe)
         const pickFirst = (payload) =>
@@ -504,8 +506,10 @@ export default function App() {
           first?.file_url ??
           findFirstHttpUrl(first)
 
+        
+
         if (!url) {
-          data = await tryFetch(`/nekos/v4/images/random?limit=1&rating=safe`)
+          data = await tryFetch(`${BASE_API_URL}/images/random?limit=1&rating=safe`)
           first = pickFirst(data)
           url =
             first?.url ??
